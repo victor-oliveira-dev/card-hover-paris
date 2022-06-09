@@ -50,3 +50,43 @@
     z-index: 10;
     transition: all 025s ease;
 }
+
+.card .texto{
+    z-index: 30;
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.card .texto p {
+    font-size: .8rem;
+    opacity: 0;
+    margin-bottom: -170px;
+    transition: all .25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.card .texto p button {
+    padding: 7px 17px;
+    border-radius: 12px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: auto;
+    cursor: pointer;
+    transition: all .25s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75rem;
+    outline: none;
+}
+
+.card .texto p button:hover {
+    background: #fff;
+    color: #000;
+}
